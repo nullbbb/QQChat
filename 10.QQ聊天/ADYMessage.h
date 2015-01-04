@@ -19,6 +19,11 @@ typedef enum {
 
 @property(nonatomic,assign)ADYMessagetype type;
 
+/**
+ *  是否显示时间
+ */
+@property(nonatomic,assign)BOOL showTime;
+
 
 +(instancetype)messageWithDict:(NSDictionary *)dict;
 -(instancetype)initWithDict:(NSDictionary *)dict;

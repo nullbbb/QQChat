@@ -40,9 +40,12 @@
         for (NSDictionary *dict in dictArray) {
             ADYMessage *message=[ADYMessage messageWithDict:dict];
             ADYMessageFrame *mf=[[ADYMessageFrame alloc]init];
-            mf.message= message ;
+          ADYMessageFrame *lastf=[msgArray lastObject];
+            ADYMessage *last=lastf.message;
             
-            [msgArray addObject:mf];
+            message.showTime=![last.time isEqualToString:message.time];
+            mf.message= message ;
+                                  [msgArray addObject:mf];
         }
         _messages=msgArray;
     

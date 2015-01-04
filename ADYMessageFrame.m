@@ -32,16 +32,18 @@
     CGFloat screenW=[UIScreen mainScreen].bounds.size.width;
      //1.时间
     
-    CGFloat timeX=0;
+    if(message.showTime==YES){
+        CGFloat timeX=0;
         CGFloat timeY=0;
         CGFloat timeW=screenW;
         CGFloat timeH=40;
-    _timeF=CGRectMake(timeX, timeY, timeW, timeH);
+        _timeF=CGRectMake(timeX, timeY, timeW, timeH);
 
+    }
     
     //2.头像
    
-    CGFloat iconY=CGRectGetMaxY(_timeF);
+    CGFloat iconY=CGRectGetMaxY(_timeF)+padding;
     CGFloat iconW=40;
     CGFloat iconH=40;
     CGFloat iconX;
