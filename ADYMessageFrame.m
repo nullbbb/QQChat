@@ -58,13 +58,14 @@
     
     CGFloat textY=iconY;
 CGSize textSize=    [self sizeWithText:message.text font:ADYTextFont maxSize:CGSizeMake(180, MAXFLOAT)];
+    CGSize textBtnSize=CGSizeMake(textSize.width+40, textSize.height+40);
     CGFloat textX;
     if (message.type==ADYMessagetypeOther) {
         textX=CGRectGetMaxX(_iconF)+padding;
     }else {
-        textX=iconX -padding-textSize.width;
+        textX=iconX -padding-textBtnSize.width;
     }
-    _textF=CGRectMake(textX, textY, textSize.width, textSize.height);
+    _textF=CGRectMake(textX, textY, textBtnSize.width, textBtnSize.height);
     
     //4. cell 的高度
     

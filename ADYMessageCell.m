@@ -40,8 +40,11 @@
         
         UIButton *textView=[[UIButton alloc]init];
         textView.titleLabel.numberOfLines=0;
-        textView.backgroundColor=[UIColor purpleColor];
+//        textView.backgroundColor=[UIColor purpleColor];
+        //设置文字按钮的内边距
+        textView.contentEdgeInsets=UIEdgeInsetsMake(20, 20, 20, 20);
         textView.titleLabel.font=ADYTextFont;
+        [textView setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.contentView addSubview:textView];
         self.textView=textView;
         
@@ -74,5 +77,22 @@
     
     [self.textView setTitle:message.text forState:UIControlStateNormal];
     self.textView.frame=messageFrame.textF;
+    
+    if (message.type==ADYMessagetypeMe) {
+        UIImage *noral=[UIImage imageNamed:@"chat_send_nor"];
+        CGFloat w=noral.size.width*0.5;
+        CGFloat h=noral.size.height*0.5;
+        UIImage *lastimg=[noral resizableImageWithCapInsets:UIEdgeInsetsMake(h, w, h, w)];
+    
+        [self.textView setBackgroundImage:lastimg forState:UIControlStateNormal];
+    }else
+    {
+        
+        UIImage *noral=[UIImage imageNamed:@"chat_recive_nor"];
+        CGFloat w=noral.size.width*0.5;
+        CGFloat h=noral.size.height*0.5;
+        UIImage *lastimg=[noral resizableImageWithCapInsets:UIEdgeInsetsMake(h, w, h, w)];
+             [self.textView setBackgroundImage:lastimg forState:UIControlStateNormal];
+    }
 }
 @end
