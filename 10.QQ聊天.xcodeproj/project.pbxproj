@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893EE2331A57DEBC001B5C34 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893EE2321A57DEBC001B5C34 /* messages.plist */; };
+		893EE2361A57E35B001B5C34 /* ADYMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 893EE2351A57E35B001B5C34 /* ADYMessage.m */; };
+		893EE2391A57E62F001B5C34 /* ADYMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893EE2381A57E62F001B5C34 /* ADYMessageCell.m */; };
+		893EE23C1A57EA33001B5C34 /* ADYMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 893EE23B1A57EA33001B5C34 /* ADYMessageFrame.m */; };
 		89A40ABB1A56D55D00FD29CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A40ABA1A56D55D00FD29CB /* Foundation.framework */; };
 		89A40ABD1A56D55D00FD29CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A40ABC1A56D55D00FD29CB /* CoreGraphics.framework */; };
 		89A40ABF1A56D55D00FD29CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A40ABE1A56D55D00FD29CB /* UIKit.framework */; };
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		893EE2321A57DEBC001B5C34 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = messages.plist; path = "/Volumes/YOU 1/IOS/0402/0402/素材/QQ聊天/messages.plist"; sourceTree = "<absolute>"; };
+		893EE2341A57E35B001B5C34 /* ADYMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYMessage.h; sourceTree = "<group>"; };
+		893EE2351A57E35B001B5C34 /* ADYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADYMessage.m; sourceTree = "<group>"; };
+		893EE2371A57E62F001B5C34 /* ADYMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYMessageCell.h; sourceTree = "<group>"; };
+		893EE2381A57E62F001B5C34 /* ADYMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADYMessageCell.m; sourceTree = "<group>"; };
+		893EE23A1A57EA33001B5C34 /* ADYMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYMessageFrame.h; sourceTree = "<group>"; };
+		893EE23B1A57EA33001B5C34 /* ADYMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADYMessageFrame.m; sourceTree = "<group>"; };
 		89A40AB71A56D55D00FD29CB /* 10.QQ聊天.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10.QQ聊天.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A40ABA1A56D55D00FD29CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89A40ABC1A56D55D00FD29CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +93,10 @@
 		89A40AAE1A56D55D00FD29CB = {
 			isa = PBXGroup;
 			children = (
+				893EE23A1A57EA33001B5C34 /* ADYMessageFrame.h */,
+				893EE23B1A57EA33001B5C34 /* ADYMessageFrame.m */,
+				893EE2371A57E62F001B5C34 /* ADYMessageCell.h */,
+				893EE2381A57E62F001B5C34 /* ADYMessageCell.m */,
 				89A40AC01A56D55D00FD29CB /* 10.QQ聊天 */,
 				89A40ADF1A56D55D00FD29CB /* 10.QQ聊天Tests */,
 				89A40AB91A56D55D00FD29CB /* Frameworks */,
@@ -119,6 +134,8 @@
 				89A40AD01A56D55D00FD29CB /* ADYViewController.m */,
 				89A40AD21A56D55D00FD29CB /* Images.xcassets */,
 				89A40AC11A56D55D00FD29CB /* Supporting Files */,
+				893EE2341A57E35B001B5C34 /* ADYMessage.h */,
+				893EE2351A57E35B001B5C34 /* ADYMessage.m */,
 			);
 			path = "10.QQ聊天";
 			sourceTree = "<group>";
@@ -126,6 +143,7 @@
 		89A40AC11A56D55D00FD29CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				893EE2321A57DEBC001B5C34 /* messages.plist */,
 				89A40AC21A56D55D00FD29CB /* 10.QQ聊天-Info.plist */,
 				89A40AC31A56D55D00FD29CB /* InfoPlist.strings */,
 				89A40AC61A56D55D00FD29CB /* main.m */,
@@ -229,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893EE2331A57DEBC001B5C34 /* messages.plist in Resources */,
 				89A40AD31A56D55D00FD29CB /* Images.xcassets in Resources */,
 				89A40AC51A56D55D00FD29CB /* InfoPlist.strings in Resources */,
 				89A40ACE1A56D55D00FD29CB /* Main.storyboard in Resources */,
@@ -252,6 +271,9 @@
 			files = (
 				89A40AC71A56D55D00FD29CB /* main.m in Sources */,
 				89A40ACB1A56D55D00FD29CB /* ADYAppDelegate.m in Sources */,
+				893EE23C1A57EA33001B5C34 /* ADYMessageFrame.m in Sources */,
+				893EE2391A57E62F001B5C34 /* ADYMessageCell.m in Sources */,
+				893EE2361A57E35B001B5C34 /* ADYMessage.m in Sources */,
 				89A40AD11A56D55D00FD29CB /* ADYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +479,7 @@
 				89A40AEB1A56D55D00FD29CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89A40AEC1A56D55D00FD29CB /* Build configuration list for PBXNativeTarget "10.QQ聊天Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +488,7 @@
 				89A40AEE1A56D55D00FD29CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
