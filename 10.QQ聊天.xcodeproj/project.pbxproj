@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		893EE2331A57DEBC001B5C34 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893EE2321A57DEBC001B5C34 /* messages.plist */; };
 		893EE2361A57E35B001B5C34 /* ADYMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 893EE2351A57E35B001B5C34 /* ADYMessage.m */; };
 		893EE2391A57E62F001B5C34 /* ADYMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893EE2381A57E62F001B5C34 /* ADYMessageCell.m */; };
 		893EE23C1A57EA33001B5C34 /* ADYMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 893EE23B1A57EA33001B5C34 /* ADYMessageFrame.m */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		893EE2321A57DEBC001B5C34 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = messages.plist; path = "/Volumes/YOU 1/IOS/0402/0402/素材/QQ聊天/messages.plist"; sourceTree = "<absolute>"; };
 		893EE2341A57E35B001B5C34 /* ADYMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYMessage.h; sourceTree = "<group>"; };
 		893EE2351A57E35B001B5C34 /* ADYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADYMessage.m; sourceTree = "<group>"; };
 		893EE2371A57E62F001B5C34 /* ADYMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYMessageCell.h; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 		89A40AC11A56D55D00FD29CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				893EE2321A57DEBC001B5C34 /* messages.plist */,
 				89A40AC21A56D55D00FD29CB /* 10.QQ聊天-Info.plist */,
 				89A40AC31A56D55D00FD29CB /* InfoPlist.strings */,
 				89A40AC61A56D55D00FD29CB /* main.m */,
@@ -247,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893EE2331A57DEBC001B5C34 /* messages.plist in Resources */,
 				89A40AD31A56D55D00FD29CB /* Images.xcassets in Resources */,
 				89A40AC51A56D55D00FD29CB /* InfoPlist.strings in Resources */,
 				89A40ACE1A56D55D00FD29CB /* Main.storyboard in Resources */,

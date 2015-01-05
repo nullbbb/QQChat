@@ -24,6 +24,20 @@
     self.tableview.separatorStyle=UITableViewCellSeparatorStyleNone;
     self.tableview.backgroundColor=[UIColor colorWithRed:224/255.0 green:224/255.0  blue:224/255.0  alpha:1];
     self.tableview.allowsSelection=NO;
+    
+//    [NSNotificationCenter defaultCenter]addObserver:self selector:@selector(KeyboardWillChangeFrame:) name:UIKeyboardWillChangeFrameNotification object:nil];
+}
+
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+}
+/**
+ *  当键盘的位置发生改变
+ *
+ *  @param note <#note description#>
+ */
+-(void)KeyboardWillChangeFrame:(NSNotification *)note{
+    
 }
 
 - (void)didReceiveMemoryWarning
