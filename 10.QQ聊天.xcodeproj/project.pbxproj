@@ -24,6 +24,7 @@
 		89A40ADC1A56D55D00FD29CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A40ABE1A56D55D00FD29CB /* UIKit.framework */; };
 		89A40AE41A56D55D00FD29CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89A40AE21A56D55D00FD29CB /* InfoPlist.strings */; };
 		89A40AE61A56D55D00FD29CB /* _0_QQ__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A40AE51A56D55D00FD29CB /* _0_QQ__Tests.m */; };
+		89F7793A1A5C301700972E86 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89F779391A5C301700972E86 /* messages.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		89A40AE11A56D55D00FD29CB /* 10.QQ聊天Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "10.QQ聊天Tests-Info.plist"; sourceTree = "<group>"; };
 		89A40AE31A56D55D00FD29CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89A40AE51A56D55D00FD29CB /* _0_QQ__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0_QQ__Tests.m; sourceTree = "<group>"; };
+		89F779391A5C301700972E86 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		89A40AC11A56D55D00FD29CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89F779391A5C301700972E86 /* messages.plist */,
 				89A40AC21A56D55D00FD29CB /* 10.QQ聊天-Info.plist */,
 				89A40AC31A56D55D00FD29CB /* InfoPlist.strings */,
 				89A40AC61A56D55D00FD29CB /* main.m */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F7793A1A5C301700972E86 /* messages.plist in Resources */,
 				89A40AD31A56D55D00FD29CB /* Images.xcassets in Resources */,
 				89A40AC51A56D55D00FD29CB /* InfoPlist.strings in Resources */,
 				89A40ACE1A56D55D00FD29CB /* Main.storyboard in Resources */,
